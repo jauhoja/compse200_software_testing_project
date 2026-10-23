@@ -15,7 +15,7 @@ $ npm install --save-dev jest
 Maybe later we want to add packages jest-chain and jest-extended?
 
 --- Below is old README ---
-
+```
 # Student template
 
 ## Purpose of this repository
@@ -29,3 +29,4 @@ and LICENSE file.
 Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
 Removing this license file directly violates terms and conditions of the software under testing.
 Individuals who remove or modify the license file will also carry the consequences.
+```
