@@ -1,3 +1,16 @@
+# Project setup
+
+TODO: project running instructions
+
+# Setup was done
+
+following this tutorial https://jestjs.io/docs/getting-started
+$ npm install --save-dev jest
+
+Maybe later we want to add packages jest-chain and jest-extended?
+
+--- Below is old README ---
+
 # Student template
 
 ## Purpose of this repository
