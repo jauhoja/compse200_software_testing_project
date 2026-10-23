@@ -1,6 +1,11 @@
 # Project setup
 
-TODO: project running instructions
+```shell
+$ git clone https://github.com/jauhoja/compse200_software_testing_project.git
+# navigate to project folder
+$ npm install
+$ npm test
+```
 
 # Setup was done
 
