@@ -1,5 +1,7 @@
 # Project setup
 
+Install Node (tested to be working with Node v24.22.1)
+
 ```shell
 $ git clone https://github.com/jauhoja/compse200_software_testing_project.git
 # navigate to project folder
