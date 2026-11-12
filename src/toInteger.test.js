@@ -4,6 +4,7 @@ describe('toInteger', () => {
   test('truncates fractional numbers toward zero', () => {
     expect(toInteger(3.9)).toBe(3)
     expect(toInteger(-3.9)).toBe(-3)
+    expect(toInteger(2.2)).toBe(2)
   })
 
   test('converts numeric strings and small fractions', () => {
