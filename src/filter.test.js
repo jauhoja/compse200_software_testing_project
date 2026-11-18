@@ -26,9 +26,7 @@ test("Specific strings out of a long string array", () => {
 
 test("No matching elements", ()=>{
     const arr = ["asdf", "req", "asdf", "qwer"];
-    // Note: This was defined in the plan to return a empty array []
-    // Was only later realised how the function actually behaves
-    expect(filter(arr, el=>el==="lol")).toStrictEqual([[]]);
+    expect(filter(arr, el=>el==="lol")).toStrictEqual([]);
 })
 
 test("Specific out of number array", () =>{
@@ -44,13 +42,9 @@ test("Prediacte without return value", () => {
         const funnyArray = [":D"] + el;
         // Doesn't return anything
     }
-    // Note: This was defined in the plan to return some error
-    // Was only later realised how the function actually behaves
-    expect(filter(arr, predicate)).toStrictEqual([[]]);    
+    expect(filter(arr, predicate)).toStrictEqual([]);    
 })
 
 test("Empty input array", ()=>{
-    // Note: This was defined in the plan to return a empty array []
-    // Was only later realised how the function actually behaves
-    expect(filter([], el=>el==="asdf")).toStrictEqual([[]]);
+    expect(filter([], el=>el==="asdf")).toStrictEqual([]);
 })
