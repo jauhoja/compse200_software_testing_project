@@ -3,7 +3,7 @@
 // takes a string of words as an input and slices them to an array. The context is
 // a web store. One of the use cases is to separate ingredients of the product
 // from a text field to an array. Use your own consideration what would be the
-// best things to test. Write the tests into words.ai4.test.js. The test framework
+// best things to test. Write the tests into words.ai3.test.js. The test framework
 // in use is jest.
 
 import words from './words.js'

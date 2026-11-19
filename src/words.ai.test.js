@@ -1,6 +1,6 @@
 // Write tests for this function. Don't take into account other test files
 // implmeneted in the codespace. Use you own consideration what would be the
-// best things to test. Write the tests into words.ai2.test.js. The test
+// best things to test. Write the tests into words.ai.test.js. The test
 // framework in use is jest.
 
 import words from './words.js'
