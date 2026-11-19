@@ -1,6 +1,8 @@
 import filter from './filter.js'
 
-import add from './add.js'
+/* 
+This test is hand written.
+*/
 
 test('Should filter strings from a multityped array', () => {
     const arr = ["asdf", 12, 23, "qwer"];
