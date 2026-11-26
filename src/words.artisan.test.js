@@ -24,6 +24,10 @@ test("Non-ASCII characters should equal to ['E222, E221']", () => {
     expect(words('E222, E221')).toEqual(['E220', 'E221']);
 });
 
+test("Words with hyphen should stay together ['asd-dsa']", () => {
+    expect(words('asd-dsa')).toEqual(['asd-dsa']);
+});
+
 test("Number/not string should throw an error", () => {
     expect(() => words(222)).toThrow();
 });
