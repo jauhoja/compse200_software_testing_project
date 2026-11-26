@@ -1,10 +1,11 @@
 import toString from './toString.js'
 
 describe('toString', () => {
-  it('converts primitive values to strings', () => {
+  it('converts primitive values to strings and returns an empty string for nullish values', () => {
     expect(toString(42)).toBe('42')
     expect(toString(true)).toBe('true')
-    expect(toString(null)).toBe('null')
+    expect(toString(null)).toBe('')
+    expect(toString(undefined)).toBe('')
   })
 
   it('returns strings unchanged and converts nullish values in arrays to empty entries', () => {
